@@ -1,26 +1,20 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
 #include <iostream>
+#include <algorithm>
 using namespace std;
 
 
 int main() {
-    string str;
-    getline(cin, str);
-    cout << str << endl;
+int a, b;
+    cin >> a >> b;
     
-    string str2;
-    getline(cin, str);
-    cout << str << endl;
+    int pembagian = a / b;
+    int sisa_bagi = a % b;
     
-    string str3;
-    getline(cin, str);
-    cout << str << endl;
-    
-    string str4;
-    getline(cin, str);
-    cout << str << endl;
-    
-    string str5;
-    getline(cin, str);
-    cout << str << endl;
+    cout << "masing-masing " <<pembagian<< endl;
+    cout << "bersisa "<<sisa_bagi<< endl;
+
     return 0;
 }
