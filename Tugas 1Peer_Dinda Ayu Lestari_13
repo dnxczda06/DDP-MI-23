@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main (){
+
+    string nama,npm;
+
+    cout << "Inputkan nama : ";
+    getline(cin,nama);
+    cout << "Inputkan NPM : ";
+    getline(cin,NPM);
+
+    cout << "Input angka pertama : ";
+    cin >> angka1;
+    cout << "Input angka kedua : ";
+    cin >> angka2;
+    hasil = angka1*angka2;
+    cout << "hasil 
